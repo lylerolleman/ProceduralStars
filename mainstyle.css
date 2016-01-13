@@ -1,0 +1,17 @@
+body {
+	background-image: url("Assets/Images/starscape.jpg");
+}
+a:link {
+	color: yellow;
+}
+a:visited {
+	color: yellow;
+}
+
+p {
+	color: white;
+}
+
+p.inline {
+	display:inline;
+}
