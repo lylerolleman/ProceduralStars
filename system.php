@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="mainstyle.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script type="text/javascript" src="Assets/Astros.js"></script>
 		<script type="text/javascript">
 			<?php
@@ -35,6 +36,13 @@
 		<script type="text/javascript" src="Assets/animate.js"></script>
 		<script type="text/javascript">
 			window.onload = initanim
+		</script>
+		<script>
+			$(document).ready(function() {
+				$("img").click(function() {
+					alert("Source File: " + $(this).attr("src"));
+				})
+			});
 		</script>
 	</head>
 	<body>
